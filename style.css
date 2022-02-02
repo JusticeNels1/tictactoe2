@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100%;
+}
+
+div.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    width: 350px;
+    padding: 22px 0px;
+    background-color: brown;
+    margin: auto;
+    border-radius: 5px;
+}
+
+button.cell {
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    font-size:75px;
+    font-weight: 600;
+}
